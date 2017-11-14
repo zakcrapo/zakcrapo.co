@@ -109,13 +109,13 @@ a:hover {
 /*	opacity: .95;*/
 }
 
-@media (min-width: 840px) and (max-width: 1439px) {
+@media (min-width: 840px) and (max-width: 1279px) {
 	.half:hover .overlay {
 		width: 50%;
 	}
 }
 
-@media (min-width: 1440px) and (max-width: 1919px) {
+@media (min-width: 1280px) and (max-width: 1919px) {
 	.half:hover .overlay {
 		width: 33.33333%;
 	}
@@ -172,7 +172,7 @@ a:hover {
 }
 
 .half .dblue {
-	background-color: #222c38;
+	background-color: #222c38; 
 }
 
 .half .rblue {
@@ -184,7 +184,7 @@ a:hover {
 }
 
 .half .navy {
-	background-color: #021332;
+	background-color: #021332; 
 }
 
 .half .green {
@@ -227,13 +227,13 @@ a:hover {
 	flex-basis: 100%;
 }
 
-@media (min-width: 840px) and (max-width: 1439px) {
+@media (min-width: 840px) and (max-width: 1399px) {
 	.half {
 		flex-basis: 50%;
 	}
 }
 
-@media (min-width: 1440px) and (max-width: 1919px) {
+@media (min-width: 1400px) and (max-width: 1919px) {
 	.half {
 		flex-basis: 33.33333%;
 	}
